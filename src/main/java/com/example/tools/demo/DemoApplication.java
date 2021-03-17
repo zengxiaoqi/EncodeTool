@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan(basePackages={"com.example.tools.controller"})
+@ComponentScan(basePackages={"com.example.tools.*"})
 @ServletComponentScan
 @SpringBootApplication
 public class DemoApplication {
